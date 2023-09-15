@@ -1,0 +1,476 @@
+Institution Codes	Publisher/Institution	Country	Country Code	Continent
+ABRI	A Rocha Kenya	Kenya	KEN	Africa
+MSU	A.J. Cook Arthropod Research Collection	USA	USA	North America
+ANSP	Academy of Natural Sciences	USA	USA	North America
+AMU	Adam Mickiewicz University in Poznan	Poland	POL	Europe
+PPRI	Agricultural Research Council	South Africa	ZAF	Africa
+AJTT	Ajtte Museum	Sweden	SWE	Europe
+ALMNH	Alabama Museum of Natural History	USA	USA	North America
+AMNH	American Museum of Natural History	USA	USA	North America
+ASNHC	Angelo State Natural History Collections	USA	USA	North America
+ABS	Archbold Biological Station	USA	USA	North America
+ASU	Arizona State University Biocollections	USA	USA	North America
+CENPAT	ArOBIS Centro Nacional Patagonico	Argentina	ARG	South America
+MACN	ArOBIS Centro Nacional Patagonico	Argentina	ARG	South America
+AUM	Auburn University Museum	USA	USA	North America
+AK	Auckland War Memorial Museum	New Zealand	NZL	Oceania
+AWMM	Auckland War Memorial Museum	New Zealand	NZL	Oceania
+MEL	Australias Virtual Herbarium	Australia	AUS	Oceania
+AADC	Australian Antarctic Data Centre	Australia	AUS	Oceania
+AM	Australian Museum	Australia	AUS	Oceania
+AZTI	AZTI-Tecnalia	Spain	ESP	Europe
+KBVE-SRBE	Belgian Biodiversity Platform	Belgium	BEL	Europe
+MRAC	Belgian Biodiversity Platform	Belgium	BEL	Europe
+CSCA	Berkeley Natural History Museums	USA	USA	North America
+EMEC	Berkeley Natural History Museums	USA	USA	North America
+UCMP	Berkeley Natural History Museums	USA	USA	North America
+BPBM	Bernice Pauahi Bishop Museum	USA	USA	North America
+BioFokus	Biofokus	Norway	NOR	Europe
+UK Trichoptera (Caddisfly) Recording Scheme	Biological Records Centre	United Kingdom	GBR	Europe
+BNHS	Bombay Natural History Society	India	IND	Asia
+BYU	Brigham Young University Life Science Museum	USA	USA	North America
+CAS	California Academy of Sciences	USA	USA	North America
+CASC	California Academy of Sciences	USA	USA	North America
+CSULB	California State University-Long Beach	USA	USA	North America
+CNC	Canadian Biodiversity Information Facility - Canadian National Collection	Canada	CAN	North America
+CMN	Canadian Museum of Nature	Canada	CAN	North America
+CMNZ	Canterbury Museum	New Zealand	NZL	Oceania
+FCMM	Caribbean OBIS Node	Venezuela	VEN	South America
+CM	Carnegie Museums	USA	USA	North America
+UVEG-ENV	Cavanilles Institute of Biodiversity and Evolutionary Biology-University of Valencia	Spain	ESP	Europe
+EBDA	Centro de Referencia em Informacao Ambiental	Brazil	BRA	South America
+CRCM	Charles R. Conner Museum	USA	USA	North America
+CCBER	Cheadle Center for Biodiversity and Ecological Restoration	USA	USA	North America
+UCSB	Cheadle Center for Biodiversity and Ecological Restoration	USA	USA	North America
+CIB	Chengdu Institute of Biology-Chinese Academy of Science	China	CHN	Asia
+CHAS	Chicago Academy of Sciences	USA	USA	North America
+CU	Clemson University Arthropod Collection	USA	USA	North America
+Cleveland Museum of Natural History-OH (CLEV)	Cleveland Museum of Natural History	USA	USA	North America
+CMNH	Cleveland Museum of Natural History	USA	USA	North America
+ULL	Coleccion del Departamento de Biologia Animal (Zoologia) de la Universidad de La Laguna	Spain	ESP	Europe
+CSU	Colorado State University	USA	USA	North America
+BMNH-U of M	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+CIBNOR	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+CICIMAR-IPN	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+CIIDIR-IPN	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+CINVESTAV-IPN	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+CUCBA-UDG	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+DGSV-SENASICA	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+ECOSUR	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+ENCB-IPN	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+FB-UMSNH	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+FC-UNAM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+FCB-UANL	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+FESI-UNAM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+FESZ-UNAM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+FMVZ-UADY	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+IBUNAM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+ICMyL-UNAM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+IFIT-CP	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+IHNE	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+InDRE-SSA	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+INECOL	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+MBM-UACAM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+MfN	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+MHNCM	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+MVZ-UCB	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+NMNH-SI	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+NO APLICA	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+NO DISPONIBLE	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+OC	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+SSG	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+TCWC-TAMU	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+UAMI	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+UIUC	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+UQROO	Comision Nacional para el Conocimiento y Uso de la Biodiversidad	Mexico	MEX	North America
+ANWC	Commonwealth Scientific and Industrial Research Organisation (CSIRO)	Australia	AUS	Oceania
+CSIRO	Commonwealth Scientific and Industrial Research Organisation (CSIRO)	Australia	AUS	Oceania
+ArCOD	Conservation of Arctic Flora and Fauna	Iceland	ISL	Europe
+ArcOD	Conservation of Arctic Flora and Fauna	Iceland	ISL	Europe
+CUMV	Cornell University Museum of Vertebrates	USA	USA	North America
+DEW	CSIRO National Collections and Marine Infrastructure	Australia	AUS	Oceania
+IMOS	CSIRO National Collections and Marine Infrastructure	Australia	AUS	Oceania
+Cumbria Biodiversity Data Centre	Cumbria Biodiversity Data Centre	United Kingdom	GBR	Europe
+DMNH	Delaware Museum of Natural History	USA	USA	North America
+DMNS	Denver Museum of Nature & Science	USA	USA	North America
+ELMC	Departamento de Biologia Animal-Faculdade de Ciência-Universidade de Lisboa	Portugal	PRT	Europe
+UMU	Department of Ecology and Hydrology-University of Murcia	Spain	ESP	Europe
+DABUH	Department of Forest Sciences	Finland	FIN	Europe
+BOS	Department of Organisms and Systems Biology-University of Oviedo	Spain	ESP	Europe
+UGR	Deptartment of Zoology-Faculty of Science-University of Granada	Spain	ESP	Europe
+EBD_CSIC	Estacion Biologica de Donana	Spain	ESP	Europe
+UTE	Estonian Lynx Samples	Estonia	EST	Europe
+TAM	Estonian Museum of Natural History	Estonia	EST	Europe
+TAAM	Estonian University of Life Sciences	Estonia	EST	Europe
+EIS	European Invertebrate Survey - The Netherlands	Netherlands	NLD	Europe
+FMNH	Field Museum	USA	USA	North America
+MZH	Finnish Museum of Natural History	Finland	FIN	Europe
+FishBase	Fishbase	Sweden	SWE	Europe
+UF	Florida Museum of Natural History	USA	USA	North America
+IFR-DNF	Forest Research Institute-European Centre for Natural Forests	Poland	POL	Europe
+FHSM	Fort Hays Sternberg Museum of Natural History	USA	USA	North America
+Ifremer	French Research Institute for Exploitation of the Sea	France	FRA	Europe
+PSUC	Frost Entomological Museum	USA	USA	North America
+LSM	GBIF-Sweden	Sweden	SWE	Europe
+GSU	Georgia Southern University	USA	USA	North America
+Ugent	Ghent University	Belgium	BEL	Europe
+GNM	Gothenburg Natural History Museum	Sweden	SWE	Europe
+HNS	Haus der Natur Salzburg-Museum fur Natur und Technik	Austria	AUT	Europe
+RMZ	Helgeland Museum	Norway	NOR	Europe
+HSU	Humboldt State University	USA	USA	North America
+INHS	Illinois Natural History Survey	USA	USA	North America
+UIMNH	Illinois Natural History Survey	USA	USA	North America
+ISM	Illinois State Museum	USA	USA	North America
+INEP KSC RAS	Institute of North Industrial Ecology Problems – Subdivision of the Federal Research Centre Kola Science Centre of Russian Academy of Science	Russia	RUS	Asia
+Institute of Plant and Animal Ecology (IPAE)	Institute of Plant and Animal Ecology	Russia	RUS	Asia
+Institute of Research for Development	Institute of Research for Development	France	FRA	Europe
+ISEZ-PAS	Institute of Systematics and Evolution of Animals-Polish Academy of Sciences	Poland	POL	Europe
+EGR	Institution for the Study-Management and Recovery of the Ecosystems of Lerida	Spain	ESP	Europe
+ICM-CSIC	Instituto de Ciencias del Mar	Spain	ESP	Europe
+IAvH	Instituto de Investigacion de Recursos Biologicos Alexander von Humboldt	Colombia	COL	South America
+Instituto de Investigación de Recursos Biologicos Alexander von Humboldt (IAvH)	Instituto de Investigacion de Recursos Biologicos Alexander von Humboldt	Colombia	COL	South America
+Instituto de Investigación de Recursos Biológicos Alexander von Humboldt (IAvH)	Instituto de Investigacion de Recursos Biologicos Alexander von Humboldt	Colombia	COL	South America
+UT	Instituto de Investigacion de Recursos Biologicos Alexander von Humboldt	Colombia	COL	South America
+INVEMAR	Instituto de Investigaciones Marinas y Costeras - Invemar	Colombia	COL	South America
+ICN	Instituto de Pesquisas Jardim Botanico do Rio de Janeiro	Brazil	BRA	South America
+IMEDEA	Instituto Mediterraneo de Estudios Avanzados	Spain	ESP	Europe
+MBML	Instituto Nacional da Mata Atlantica	Brazil	BRA	South America
+INBio	Instituto Nacional de Biodiversidad-Costa Rica	Costa Rica	CRI	North America
+Instituto Nacional de Pesquisas da Amazônia (INPA)	Instituto Nacional de Pesquisas da Amazonia	Brazil	BRA	South America
+HUJ	Israel Nature and Parks Authority	Israel	ISR	Asia
+PSM	James R. Slater Museum of Natural History	USA	USA	North America
+JYV	Jyvaskyla University Museum	Finland	FIN	Europe
+KSU	Kansas State University Museum of Entomological and Prairie Arthropod Research	USA	USA	North America
+UCSC	Kenneth S. Norris Center for Natural History	USA	USA	North America
+KNA	Korea National Arboretum	South Korea	KOR	Asia
+NMSA	KwaZulu-Natal Museum	South Africa	ZAF	Africa
+ZRC	Lee Kong Chian Natural History Museum-National University of Singapore	Singapore	SGP	Asia
+ZFMK	Leibniz Institute for the Analysis of Biodiversity Change	Germany	DEU	Europe
+ZMMU	Lomonosov Moscow State University	Russia	RUS	Asia
+LSU	Louisiana State University Herbarium	USA	USA	North America
+LSUMZ	Louisiana State University Museum of Natural Science	USA	USA	North America
+MZLU	Lund Museum of Zoology	Sweden	SWE	Europe
+LCDI	Luther College	USA	USA	North America
+MRI-PAS	Mammal Research Institute-Polish Academy of Sciences	Poland	POL	Europe
+MBA	Marine Biological Association	United Kingdom	GBR	Europe
+McGill University	McGill University	Canada	CAN	North America
+MSUM	Michigan State University Museum	USA	USA	North America
+Milwaukee Public Museum (MPM)	Milwaukee Public Museum	USA	USA	North America
+MPM	Milwaukee Public Museum	USA	USA	North America
+IADIZA	Ministerio de Ciencia-Tecnologia e Innovacion Productiva	Argentina	ARG	South America
+MISSA	Mississippi Entomological Museum	USA	USA	North America
+MMNS	Mississippi Museum of Natural Science	USA	USA	North America
+MLZ	Moore Laboratory of Zoology	USA	USA	North America
+FEB	Moscow Pedagogical State University	Russia	RUS	Asia
+MPSU	Moscow Pedagogical State University	Russia	RUS	Asia
+Musée des Confluences	Musee des Confluences	France	FRA	Europe
+Musée Zoologique de la ville de Strasbourg	Musee Zoologique de la Ville de Strasbourg	France	FRA	Europe
+fcnym.unlp.edu.ar	Museo de La Plata	Argentina	ARG	South America
+UNAM	Museo de Zoologia de la Facultad de Ciencias-UNAM	Mexico	MEX	North America
+COMFENALCO	Museo Entomologico de Comfenalco - Antioquia	Colombia	COL	South America
+MNCN	Museo Nacional de Ciencias Naturales	Spain	ESP	Europe
+PUCRS	Museu de Ciencias e Tecnologia - PUCRS	Brazil	BRA	South America
+MCNB	Museu de Ciencies Naturals de Barcelona	Spain	ESP	Europe
+Museu Nacional/UFRJ	Museu Nacional / UFRJ	Brazil	BRA	South America
+MNHNC	Museu Nacional de Historia Natural e da Ciencia	Portugal	PRT	Europe
+MNRJ	Museu Nacional-Universidade Federal do Rio de Janeiro	Brazil	BRA	South America
+Museu Nacional-Universidade Federal do Rio de Janeiro (MNRJ)	Museu Nacional-Universidade Federal do Rio de Janeiro	Brazil	BRA	South America
+MPEG	Museu Paraense Emilio Goeldi	Brazil	BRA	South America
+MAGNT	Museum and Art Gallery of the Northern Territory	Australia	AUS	Oceania
+MIZPAN	Museum and Institute of Zoology-Polish Academy of Sciences	Poland	POL	Europe
+MHNG	Museum dHistoire Naturelle de la Ville de Geneve	Switzerland	CHE	Europe
+NMNL	Museum De Bastei	Netherlands	NLD	Europe
+European Distributed Institute of Taxonomy (EDIT)	Museum fur Naturkunde Berlin	Germany	DEU	Europe
+Uni Jena	Museum fur Naturkunde Berlin	Germany	DEU	Europe
+Muséum Henri-Lecoq Clermont-Ferrand MHLCLFE	Museum Henri-Lecoq Clermont-Ferrand	France	FRA	Europe
+MNHN	Museum National dHistoire Naturelle	France	FRA	Europe
+MCZ	Museum of Comparative Zoology-Harvard University	USA	USA	North America
+UPS	Museum of Evolution in Uppsala	Sweden	SWE	Europe
+MSB	Museum of Southwestern Biology	USA	USA	North America
+MVZ	Museum of Vertebrate Zoology	USA	USA	North America
+NMV	Museums Victoria	Australia	AUS	Oceania
+DanBIF	MycoKey	Denmark	DNK	Europe
+NEON	National Ecological Observatory Network	USA	USA	North America
+KRNMAN	National Institute of Biological Resources	South Korea	KOR	Asia
+NIBR	National Institute of Biological Resources	South Korea	KOR	Asia
+ELKU	National Institute of Genetics-ROIS	Japan	JPN	Asia
+EUMJ	National Institute of Genetics-ROIS	Japan	JPN	Asia
+KUM	National Institute of Genetics-ROIS	Japan	JPN	Asia
+NIAES	National Institute of Genetics-ROIS	Japan	JPN	Asia
+TM	National Institute of Genetics-ROIS	Japan	JPN	Asia
+NIWA	National Institute of Water and Atmospheric Research	New Zealand	NZL	Oceania
+MABIK	National Marine Biodiversity Institute Of Korea	South Korea	KOR	Asia
+SAMC	National Museum of Natural History-Smithsonian Institution	USA	USA	North America
+USNM	National Museum of Natural History-Smithsonian Institution	USA	USA	North America
+AKPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+BDCJ	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+BIHM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+CBM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+FCMNH	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+FRLM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+GMNHJ	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+GPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+HCM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+HCSM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+HUMZ	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+HYO	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+ICMI	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+INM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+IPMM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+JACM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+JAMSTEC	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+JODC	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+JSCM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KAUM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KCMH	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KCMI	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KGPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KMM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KOM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+KSNHM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+LBM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+MNHAH	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+NASU	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+NSMT	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+NSSM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+OMPIM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+OPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+RCM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+RUMF	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+S9-5	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+SEHU	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+SPMN	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+TCNS	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+TKPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+TMNH	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+TOYA	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+TPM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+UMUT	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+WMNH	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+YAMA	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+YCM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+YIO	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+YONE	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+YPYM	National Museum of Nature and Science-Japan	Japan	JPN	Asia
+NMK	National Museums of Kenya	Kenya	KEN	Africa
+ENHM	National Science Museum of Korea	South Korea	KOR	Asia
+HUNM	National Science Museum of Korea	South Korea	KOR	Asia
+NSMK	National Science Museum of Korea	South Korea	KOR	Asia
+SMNH	National Science Museum of Korea	South Korea	KOR	Asia
+NHMA	Natural History Museum Aarhus	Denmark	DNK	Europe
+NMR	Natural History Museum Aarhus	Netherlands	NLD	Europe
+NHMUK	Natural History Museum London	United Kingdom	GBR	Europe
+NHMM	Natural History Museum Maastricht	Netherlands	NLD	Europe
+NHMD	Natural History Museum of Denmark	Denmark	DNK	Europe
+ZMUC	Natural History Museum of Denmark	Denmark	DNK	Europe
+LACM	Natural History Museum of Los Angeles County	USA	USA	North America
+UMNH	Natural History Museum of Utah	USA	USA	North America
+NMZB	Natural History Museum of Zimbabwe	Zimbabwe	ZWE	Africa
+TTU	Natural Science Research Laboratory-Museum of Texas Tech University	USA	USA	North America
+OAMC	Natural Sciences Museum of Tenerife	Spain	ESP	Europe
+RMNH	Naturalis Biodiversity Center	Netherlands	NLD	Europe
+ZMA	Naturalis Biodiversity Center	Netherlands	NLD	Europe
+NTSRV	NatureServe	USA	USA	North America
+MNHM	Naturhistorisches Museum Mainz	Germany	DEU	Europe
+NMOK	Naturkundemuseum im Ottoneum Kassel	Germany	DEU	Europe
+NH 641	Natuurmuseum Brabant	Netherlands	NLD	Europe
+NBMB	New Brunswick Museum	Canada	CAN	North America
+NMMNHS	New Mexico Museum of Natural History and Science	USA	USA	North America
+NMSU	New Mexico State Collection of Arthropods	USA	USA	North America
+NYSM	New York State Museum	USA	USA	North America
+New Zealand Arthropod Collection	New Zealand Arthropod Collection	New Zealand	NZL	Oceania
+The Natural History Museum-London-UK (BMNH)	Newcastle University	United Kingdom	GBR	Europe
+NCSM	North Carolina State Museum of Natural Sciences	USA	USA	North America
+NCSU	North Carolina State University Insect Collection	USA	USA	North America
+NAUF	Northern Arizona University: Colorado Plateau Biodiversity Center	USA	USA	North America
+nef	Norwegian Biodiversity Information Centre	Norway	NOR	Europe
+NINA	Norwegian Institute for Nature Research	Norway	NOR	Europe
+NMBU	Norwegian University of Life Sciences	Norway	NOR	Europe
+NTNU-VM	Norwegian University of Science and Technology	Norway	NOR	Europe
+NCMG	Nottinghamshire Biological and Geological Records Centre	United Kingdom	GBR	Europe
+NSW Dept of Planning-Industry and Environment	NSW Department of Planning-Industry and Environment	Australia	AUS	Oceania
+The Atlantic reference Centre	OBIS Canada	Canada	CAN	North America
+Odonata Central	Odonata Central	USA	USA	North America
+C.A. Triplehorn Insect Collection-Ohio State University-Columbus-OH (OSUC)	Ohio State University	USA	USA	North America
+Ohio State University - Bird Division-Columbus-OH (OSUM)	Ohio State University	USA	USA	North America
+Ohio State University - Fish Division-Columbus-OH (OSUM)	Ohio State University	USA	USA	North America
+Ohio State University Acarology Laboratory-Columbus-OH (OSAL)	Ohio State University	USA	USA	North America
+OS	Oregon State University	USA	USA	North America
+OSAC	Oregon State University	USA	USA	North America
+CIDA	Orma Smith Museum of Natural History	USA	USA	North America
+Fiocruz	Oswaldo Cruz Foundation	Brazil	BRA	South America
+Siewierz Forestry District-Poland	Panstwowe Gospodarstwo Lesne Lasy Panstwowe Nadlesnictwo Siewierz	Poland	POL	Europe
+PUCV	Pontificia Universidad Catolica de Valparaiso	Chile	CHL	South America
+Pontificia Universidad Javeriana (PUJ)	Pontificia Universidad Javeriana	Colombia	COL	South America
+UTAH	Price Institute of Parasite Research-School of Biological Sciences-University of Utah	USA	USA	North America
+PU	Purdue Entomological Research Collection	USA	USA	North America
+QVMAG	Queen Victoria Museum and Art Gallery	Australia	AUS	Oceania
+QM	Queensland Museum	Australia	AUS	Oceania
+MZB	Research Center For Biology - Indonesian Institute of Sciences (LIPI)	Indonesia	IDN	Asia
+CIBIO	Research Center in Biodiversity and Genetic Resources	Portugal	PRT	Europe
+INBO	Research Institute for Nature and Forest	Belgium	BEL	Europe
+RBINS-Scientific Heritage	Royal Belgian Institute of Natural Sciences	Belgium	BEL	Europe
+RBCM	Royal British Columbia Museum	Canada	CAN	North America
+RMCA	Royal Museum for Central Africa-Belgium	Belgium	BEL	Europe
+ROM	Royal Ontario Museum	Canada	CAN	North America
+RSKM	Royal Saskatchewan Museum	Canada	CAN	North America
+OMNH	Sam Noble Oklahoma Museum of Natural History	USA	USA	North America
+SDNHM	San Diego Natural History Museum	USA	USA	North America
+SDSU	San Diego State University Herbarium	USA	USA	North America
+SBMNH	Santa Barbara Museum of Natural History	USA	USA	North America
+RBINS	SCAR - AntOBIS	United Kingdom	GBR	Europe
+AAD	Scientific Committee on Antarctic Research AntOBIS	United Kingdom	GBR	Europe
+AAS	Scientific Committee on Antarctic Research AntOBIS	United Kingdom	GBR	Europe
+SIO	Scripps Institution of Oceanography	USA	USA	North America
+SMF	Senckenberg	Germany	DEU	Europe
+SNSD	Senckenberg	Germany	DEU	Europe
+ZMB	Senckenberg	Germany	DEU	Europe
+ZMH	Senckenberg	Germany	DEU	Europe
+Norman Lindner	Senckenberg Museum fur Naturkunde Gorlitz	Germany	DEU	Europe
+SMNG	Senckenberg Museum fur Naturkunde Gorlitz	Germany	DEU	Europe
+DEMNA-DNE	Service Public de Wallonie – Departement d’Etude du Milieu Naturel et Agricole	Belgium	BEL	Europe
+UFMS	Sistema de Informação sobre a Biodiversidade Brasileira	Brazil	BRA	South America
+Göteborgs naturhistoriska museum (GNM)	SLU Artdatabanken	Sweden	SWE	Europe
+Länsstyrelsen Kalmar	SLU Artdatabanken	Sweden	SWE	Europe
+Lycksele skogsmuseum	SLU Artdatabanken	Sweden	SWE	Europe
+SLU Artdatabanken	SLU Artdatabanken	Sweden	SWE	Europe
+SAIAB	South African Institute for Aquatic Biodiversity	South Africa	ZAF	Africa
+ARC	South African National Biodiversity Institute	South Africa	ZAF	Africa
+ARC-PPRI	South African National Biodiversity Institute	South Africa	ZAF	Africa
+DMSA	South African National Biodiversity Institute	South Africa	ZAF	Africa
+SAM	South African National Biodiversity Institute	South Africa	ZAF	Africa
+SANC	South African National Biodiversity Institute	South Africa	ZAF	Africa
+TMSA	South African National Biodiversity Institute	South Africa	ZAF	Africa
+SAMA	South Australian Museum	Australia	AUS	Oceania
+Université de Montréal	Specimen Micropublications	Canada	CAN	North America
+SMNS	Staatliche Naturwissenschaftliche Sammlungen Bayerns	Germany	DEU	Europe
+SNSB-ZSM	Staatliche Naturwissenschaftliche Sammlungen Bayerns	Germany	DEU	Europe
+SMNK	Staatliches Museum fur Naturkunde Karlsruhe	Germany	DEU	Europe
+SMNHTAU	Steinhardt Museum of Natural History	Israel	ISR	Asia
+University of Central Florida Collection of Arthopods (UCFC)	Stuart M. Fullerton Collection of Arthropods-University of Central Florida	USA	USA	North America
+NRM	Swedish Museum of Natural History	Sweden	SWE	Europe
+BNM	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+ETHZ	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+MCSN	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+MHNF	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+MHNN	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+MNVS	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+Museum.BL	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+MZL	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NHM	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMB	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMBE	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMLU	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMSG	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMSH	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMSO	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+NMTG	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+ZMZ	Swiss National Biodiversity Data and Information Centres	Switzerland	CHE	Europe
+DEI	SysTax	Germany	DEU	Europe
+LMD	SysTax	Germany	DEU	Europe
+tesri	Taiwan Endemic Species Research Institute	China	CHN	Asia
+FACT	Taiwan Forestry Research Institute	China	CHN	Asia
+TFRI	Taiwan Forestry Research Institute	China	CHN	Asia
+TMAG	Tasmanian Museum and Art Gallery	Australia	AUS	Oceania
+NMNS	TELDAP	China	CHN	Asia
+TCWC	Texas A&M University Biodiversity Research and Teaching Collections	USA	USA	North America
+TAMU	Texas A&M University Insect Collection	USA	USA	North America
+TLMF	Tiroler Landesmuseum Ferdinandeum	Austria	AUT	Europe
+UiT	UiT The Arctic University of Norway	Norway	NOR	Europe
+BISON	United States Geological Survey	USA	USA	North America
+OGL	United States Geological Survey	USA	USA	North America
+MIZA	Universidad Central de Venezuela	Venezuela	VEN	South America
+Universidad de La Salle (La Salle)	Universidad de La Salle	Colombia	COL	South America
+USAC	Universidad de San Carlos de Guatemala	Guatemala	GTM	North America
+Universidad del Magdalena	Universidad del Magdalena	Colombia	COL	South America
+UQUINDÍO	Universidad del Quindio	Colombia	COL	South America
+Universidad del Tolima	Universidad del Tolima	Colombia	COL	South America
+Universidad del Tolima (UT)	Universidad del Tolima	Colombia	COL	South America
+Universidad del Valle	Universidad del Valle	Colombia	COL	South America
+UVG	Universidad del Valle de Guatemala	Guatemala	GTM	North America
+Universidad Industrial de Santander (UIS)	Universidad Industrial de Santander	Colombia	COL	South America
+UN	Universidad Nacional de Colombia	Colombia	COL	South America
+Universidad Nacional de Colombia (UNAL)	Universidad Nacional de Colombia	Colombia	COL	South America
+UNNE	Universidad Nacional del Nordeste	Argentina	ARG	South America
+Universidad Tecnológica del Chocó (UTCH)	Universidad Tecnologica del Choco	Colombia	COL	South America
+USP	Universidade de Sao Paulo	Brazil	BRA	South America
+USP-RP	Universidade de Sao Paulo	Brazil	BRA	South America
+UAc	Universidade dos Acores	Portugal	PRT	Europe
+UNICAMP	Universidade Estadual de Campinas - Instituto de Biologia	Germany	DEU	Europe
+UEL	Universidade Estadual de Londrina	Brazil	BRA	South America
+UFPB	Universidade Federal da Paraiba	Brazil	BRA	South America
+UFSCar	Universidade Federal de Sao Carlos	Brazil	BRA	South America
+UFPR	Universidade Federal do Parana	Brazil	BRA	South America
+Universidade Federal do Paraná (UFPR)	Universidade Federal do Parana	Brazil	BRA	South America
+Espace pour la vie	Universite Laval	Canada	CAN	North America
+UMZC	University Museum of Zoology-Cambridge	United Kingdom	GBR	Europe
+UA	University of Alabama Biodiversity and Systematics	USA	USA	North America
+KWP	University of Alaska Museum of the North	USA	USA	North America
+UAM	University of Alaska Museum of the North	USA	USA	North America
+University of Alberta Museums	University of Alberta Museums	Canada	CAN	North America
+University of Alberta Museums (UAM)	University of Alberta Museums	Canada	CAN	North America
+Universidad de Antioquia (UdeA)	University of Antioquia	Colombia	COL	South America
+RLMC	University of Arizona Insect Collection	USA	USA	North America
+UAZ	University of Arizona Museum of Natural History	USA	USA	North America
+UAFMC	University of Arkansas Collections Facility	USA	USA	North America
+BG	University of Bergen	Norway	NOR	Europe
+MNCR	University of Bergen	Norway	NOR	Europe
+ZMBN	University of Bergen	Norway	NOR	Europe
+UBCBBM	University of British Columbia	Canada	CAN	North America
+University of British Columbia	University of British Columbia	Canada	CAN	North America
+UCD	University of California-Davis	USA	USA	North America
+UCLA	University of California-Los Angelas	USA	USA	North America
+UCM	University of Colorado Museum of Natural History	USA	USA	North America
+UCONN	University of Connecticut	USA	USA	North America
+UD	University of Delaware Insect Research Collection	USA	USA	North America
+GMNH	University of Georgia Collection of Arthropods	USA	USA	North America
+GUAM	University of Guam Insect Collection	USA	USA	North America
+Biodiversity Institute of Ontario	University of Guelph	Canada	CAN	North America
+University of Guelph	University of Guelph	Canada	CAN	North America
+University of Guelph-Centre for Biodiversity Genomics	University of Guelph	Canada	CAN	North America
+UHIM	University of Hawaii	USA	USA	North America
+UI	University of Idaho William F Barr Entomological Museum	USA	USA	North America
+WFBM	University of Idaho William F Barr Entomological Museum	USA	USA	North America
+SUI	University of Iowa Museum of Natural History	USA	USA	North America
+KU	University of Kansas Biodiversity Institute	USA	USA	North America
+KY	University of Kentucky	USA	USA	North America
+NLU	University of Louisiana at Monroe	USA	USA	North America
+UMMZ	University of Michigan Museum of Zoology	USA	USA	North America
+JFBM	University of Minnesota Bell Museum	USA	USA	North America
+MIN	University of Minnesota Bell Museum	USA	USA	North America
+MMNH	University of Minnesota Bell Museum	USA	USA	North America
+UMH	University of Mons-Hainaut	Belgium	BEL	Europe
+MZNA	University of Navarra – Department of Environmental Biology	Spain	ESP	Europe
+HWML	University of Nebraska State Museum	USA	USA	North America
+UNSM	University of Nebraska State Museum	USA	USA	North America
+UNHC	University of New Hamsphire Collection of Insects and Other Arthropods	USA	USA	North America
+UNM	University of New Mexico Herbarium	USA	USA	North America
+Fjellberg	University of Oslo	Norway	NOR	Europe
+NHMO	University of Oslo	Norway	NOR	Europe
+O	University of Oslo	Norway	NOR	Europe
+ZMO	University of Oslo	Norway	NOR	Europe
+ZMUO	University of Oulu	Finland	FIN	Europe
+UTC	University of Tennessee - Chattanooga	USA	USA	North America
+TNHC	University of Texas at Austin-Biodiversity Collections	USA	USA	North America
+UTIC	University of Texas at Austin-Biodiversity Collections	USA	USA	North America
+UTEP	University of Texas at El Paso Biodiversity Collections	USA	USA	North America
+University of Texas Biodiversity Collections (UTBC)	University of Texas Biodiversity Collections	USA	USA	North America
+UTA	University of Texas-Arlington	USA	USA	North America
+UWIZM	University of the West Indies Zoology Museum	Trinidad & Tobago	TTO	South America
+UWBM	University of Washington Burke Museum	USA	USA	North America
+UWFC	University of Washington Burke Museum	USA	USA	North America
+UW-Madison	University of Wisconsin - Madison	USA	USA	North America
+UWYMV	University of Wyoming Museum of Vertebrates	USA	USA	North America
+USDA-ARS	USDA-ARS Pollinating Insect-Biology-Management-Systematics Research	USA	USA	North America
+UVM	Vermont Center for Ecostudies	USA	USA	North America
+VCE	Vermont Center for Ecostudies	USA	USA	North America
+VPI	Virginia Tech Insect Collection	USA	USA	North America
+UQIC	Walter Reed Biosystematics Unit-Smithsonian Institution	USA	USA	North America
+WAM	Western Australian Museum	Australia	AUS	Oceania
+WFVZ	Western Foundation of Vertebrate Zoology	USA	USA	North America
+NML	World Museum-National Museums Liverpool	United Kingdom	GBR	Europe
+MNHW	Wroc_aw University-Museum of Natural History	Poland	POL	Europe
+YPM	Yale University Peabody Museum	USA	USA	North America
+YorkU	York University	Canada	CAN	North America
+ZSM	Zoologische Staatssammlung Munchen/Staatliche Naturwissenschaftliche Sammlungen Bayerns	Germany	DEU	Europe
