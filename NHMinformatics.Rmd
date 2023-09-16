@@ -1,14 +1,22 @@
 ---
 title: "NHMinformatics"
 author: "Daren Card"
-date: '2023-09-15'
-runtime: shiny
-output: 
+date: "2023-09-15"
+output:
   html_document:
-    toc: TRUE
+    toc: yes
     toc_float:
-      collapsed: FALSE
-      smooth_scroll: TRUE
+      collapsed: no
+      smooth_scroll: yes
+runtime: shiny
+resource_files:
+- "images/1_Mainpage-Occurrences.png"
+- images/2_PreservedSpecimen.png
+- images/3_SelectAnimalia.png
+- images/4_SelectDownload.png
+- images/5_SimpleDownload.png
+- images/6_LargeDownloadWarn.png
+- images/7_DownloadEmail.png
 ---
 
 ```{r setup, include=FALSE}
@@ -21,6 +29,7 @@ library(tidyverse)
 library(scales)
 library(patchwork)
 library(ggiraph)
+library(maps)
 
 # turn off scientific notation
 options(scipen=999)
