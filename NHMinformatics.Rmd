@@ -2909,7 +2909,74 @@ D
 )
 ```
 
-And that's it! It should not be possible for anyone to recreate the figures from the accompanying article and explore the data in other interactive and manual ways. There is a lot that can be explored in these data, so hopefully, others will find this report useful! I will conclude by displaying my session info, which may be useful for troubleshooting if issues are encountered.
+And that's it! It should now be possible for anyone to recreate the figures from the accompanying article and explore the data in other interactive and manual ways. There is a lot that can be explored in these data, so hopefully, others will find this report useful! 
+
+Before wrapping up, let's quickly demonstrate how to produce the data table that was archived with the GitHub repository for this document and as a [GBIF derived dataset](https://www.gbif.org/derived-dataset/about). When building this table, we want to keep track of both phyla and classes, but we also need to keep track of both the original collection codes attached to the specimen records by GBIF and the institutional home of these collections, as some institutions have more than one subcollection on GBIF. This should allow one to tie the data back to the raw data from GBIF. I will also rename the column headers so they are nicer and more descriptive.
+
+```{r 64-create-archive-data, echo=TRUE, warnings=FALSE, message=FALSE}
+final_archive_data <- filtered_df %>% 
+  group_by(phylum, class, Publisher.Institution, collection,
+           Country, Continent, year, sum) %>%
+  summarize(count = sum(count)) %>%
+  mutate(class_prop = count / sum,
+         class_perc = (count / sum) * 100) %>%
+  ungroup() %>% 
+  rename(Phylum = phylum,
+         Class = class,
+         Publisher_institution = Publisher.Institution,
+         Collection_code = collection,
+         Year = year,
+         Publisher_institution_total_count = sum,
+         Class_collection_code_count = count,
+         Class_proportion = class_prop,
+         Class_percentage = class_perc)
+
+str(final_archive_data)
+```
+
+This is the exact table that was exported and archived. But it does not necessarily correspond to some of the summarized tables above, as sometimes we are clustering the data only based on phylum (but not class) and on institution (but not collection code). We can regroup and summarize the data by phylum, ignoring class, to gather counts, proportions, and percentages for each phylum per collection code per year. 
+
+```{r 65-archive-group-phylum, echo=TRUE, warnings=FALSE, message=FALSE}
+resummPhylum <- final_archive_data %>% 
+  group_by(Phylum, Publisher_institution, Collection_code, Country, 
+           Continent, Year, Publisher_institution_total_count) %>%
+  summarize(Phylum_collection_code_count = sum(Class_collection_code_count)) %>%
+  mutate(Phylum_proportion = Phylum_collection_code_count / Publisher_institution_total_count,
+         Phylum_percentage = (Phylum_collection_code_count / Publisher_institution_total_count) * 100) %>%
+  ungroup()
+
+str(resummPhylum)
+```
+
+Similarly, we can regroup and summarize the data by institution, ignoring collection code, to gather counts, proportions, and percentages for each class per collection code per year. 
+
+```{r 66-archive-group-institution, echo=TRUE, warnings=FALSE, message=FALSE}
+resummInstitution <- final_archive_data %>% 
+  group_by(Phylum, Class, Publisher_institution, Country, 
+           Continent, Year, Publisher_institution_total_count) %>%
+  summarize(Class_institution_count = sum(Class_collection_code_count)) %>%
+  mutate(Class_proportion = Class_institution_count / Publisher_institution_total_count,
+         Class_percentage = (Class_institution_count / Publisher_institution_total_count) * 100) %>%
+  ungroup()
+
+str(resummInstitution)
+```
+
+Finally, we can regroup and summarize the data by both phylum and institution, ignoring classes and collection codes, to gather counts, proportions, and percenatages for each phylum per institution per year.
+
+```{r 67-archive-group-phylum-institution, echo=TRUE, warnings=FALSE, message=FALSE}
+resummPhylumInstitution <- final_archive_data %>% 
+  group_by(Phylum, Publisher_institution, Country, 
+           Continent, Year, Publisher_institution_total_count) %>%
+  summarize(Phylum_institution_count = sum(Class_collection_code_count)) %>%
+  mutate(Phylum_proportion = Phylum_institution_count / Publisher_institution_total_count,
+         Phylum_percentage = (Phylum_institution_count / Publisher_institution_total_count) * 100) %>%
+  ungroup()
+
+str(resummPhylumInstitution)
+```
+
+These resummarized tables will be useful for following some of the steps above to summarize or plot the data, or for allowing interested users to explore the data in other custom ways. I will conclude by displaying my session info, which may be useful for troubleshooting if issues are encountered.
 
 ```{r 99-sessionInfo, echo=TRUE, warnings=FALSE, message=FALSE}
 sessionInfo()
