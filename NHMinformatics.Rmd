@@ -388,7 +388,7 @@ names(continentSumm) <- c("Continent", "Number of Countries",
 renderDataTable(continentSumm)
 ```
 
-Here is an interactive map showing the geographic extent of the institutions included in the final dataset, which each country colored by the density of institutions. You can hover over each country to see a count and full list of institutions. You can use the controls in the bottom-right corner to zoom and pan as needed (e.g., to visualize the countries in Europe).
+Here is an interactive map showing the geographic extent of the institutions included in the final dataset, with each country colored by the density of institutions. You can hover over each country to see a count and full list of institutions. You can use the controls in the bottom-right corner to zoom and pan as needed (e.g., to visualize the countries in Europe).
 
 ```{r 07-summary-map, echo=FALSE, warnings=FALSE, message=FALSE, fig.width = 10}
 # gather institution counts
@@ -447,7 +447,7 @@ renderPlot({
 
 ## Temporal Trendlines
 
-But this overall data trend integrates over a lot of variation in trends at the level of individual geographic areas (continents and countries), institutions, and taxonomic levels. The following interactive dashboard, built using `shiny` and `ggiraph`, will allow interested users to explore the underlying data in greater detail. Users can select the type of comparison they would like to make, whether that is between continents, countries, institutions, phyla, or classes. From there, the user can then select up to six data groupings (i.e., continents, countries, etc.) to visually compare, which should load in the following plot. Collections are sorted by the [three-letter ISO code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for their parent country and classes are sorted by phylum. The years slider can be used to focus on certain year ranges, although this option simply zooms into this range and does not recalculate the underlying proportions based on the new extent. The user may also choose to adjust the Loess smoothing to control how responsive the trendline(s) are to the underlying data. There is also an option to display the individual data points underlying the trends, although this is only recommended when comparing institutions due to the large amount of data available for other groupings (the plot will still render, but it will not be very useful to look at). Finally, there are additional options to customize the resulting plot, including log-scaling the y-axis, faceting the data groupings across subpanels, and allowing the subpanels y-axes to vary individually. There are also options in the bottom-right corner to adjust the view of the data by zooming, panning, etc. and when a user is happy with the plot they have produced, they can easily export the image to a PNG file for their own records. A rough plot title is constructed automatically from the user options, but the user can easily supply a custom title that helps with record keeping. Altogether, these options should allow interested users to visualize one or more aspects of the overall dataset and export useful plots for downstream uses.
+But this overall data trend integrates over a lot of variation in trends at the level of individual geographic areas (continents and countries), institutions, and taxonomic levels. The following interactive dashboard, built using `shiny` and `ggiraph`, will allow interested users to explore the underlying data in greater detail. Users can select the type of comparison they would like to make, whether that is between continents, countries, institutions, phyla, or classes. From there, the user can then select up to six data groupings (i.e., continents, countries, etc.) to visually compare, which should load in the following plot. Collections are sorted by the [three-letter ISO code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for their parent country and classes are sorted by phylum. The years slider can be used to focus on certain year ranges, although this option simply zooms into this range and does not recalculate the underlying proportions based on the new extent. The user may also choose to adjust the LOESS smoothing to control how responsive the trendline(s) are to the underlying data. There is also an option to display the individual data points underlying the trends, although this is only recommended when comparing institutions due to the large amount of data available for other groupings (the plot will still render, but it will not be very useful to look at). Finally, there are additional options to customize the resulting plot, including log-scaling the y-axis, faceting the data groupings across subpanels, and allowing the subpanels y-axes to vary individually. There are also options in the bottom-right corner to adjust the view of the data by zooming, panning, etc. and when a user is happy with the plot they have produced, they can easily export the image to a PNG file for their own records. A rough plot title is constructed automatically from the user options, but the user can easily supply a custom title that helps with record keeping. Altogether, these options should allow interested users to visualize one or more aspects of the overall dataset and export useful plots for downstream uses.
 
 ```{r 09-interactive-temporal-trends, echo=FALSE, warnings=FALSE, message=FALSE, fig.width = 10, fig.height = 20}
 # determine unique choices for each type of data
@@ -493,10 +493,10 @@ inputPanel(
   sliderInput("yearAdjustTrend", label = "Years:",
               min = 1900, max = 2015, value = c(1900, 2015), step = 1, sep = ""),
   
-  # allow Loess span to be adjusted, since it can disappear when there are too few points
+  # allow LOESS span to be adjusted, since it can disappear when there are too few points
   # adjusting span up will recover line when too few points
   # could also try an approach outlined at https://stackoverflow.com/questions/46325323/how-to-make-geom-smooth-less-dynamic
-  sliderInput("spanAdjust", label = "Loess span:",
+  sliderInput("spanAdjust", label = "LOESS span:",
               min = 0, max = 1, value = 0.25 , step = 0.05),
   
   checkboxInput("pointsDisplay", "Display data points?", FALSE),
@@ -654,7 +654,7 @@ renderGirafe({
     myTitle = input$title
   }
   
-  # variable for Loess span
+  # variable for LOESS span
   mySpan = input$spanAdjust
   
   # if user specifies to have points displayed, add points and trendlines
@@ -1532,7 +1532,7 @@ datamash -s -g 5,6,37,33 count 33 |
 head
 ```
 
-Great! We now have tab-delimited output with four columns: (1) phylum (field 5), (2) institution code (field 37), (3) year (field 33), and (4) count of records based on columns 1-3. We have just been demonstrating these commands on a subset of the data, so we will need to run the full command on the full dataset. Here is the command to do this, which is only slightly modified from what was described in detail above.
+Great! We now have tab-delimited output with five columns: (1) phylum (field 5), (2) class (field 6), (3) institution code (field 37), (4) year (field 33), and (5) count of records based on column 33. We have just been demonstrating these commands on a subset of the data, so we will need to run the full command on the full dataset. Here is the command to do this, which is only slightly modified from what was described in detail above.
 
 ```{bash 16-data-summary-full, echo=TRUE, eval=FALSE, eval=FALSE, warnings=FALSE, message=FALSE}
 # I am writing the output to the file 'Animalia_0267246-220831081235567.phylum_collection_year_counts.txt'
@@ -1716,7 +1716,7 @@ We have many more collections than phyla, so this is a pretty large table. You c
 )
 ```
 
-If you know your museum codes, this will make sense. The largest collection is 'USNM', which is the U.S. National Museum / Smithsonian Institute. Now let's apply filters based on phylum and collection size and get a sense of how collections are growing over time. First, we will only focus on phyla that are well-represented across collections. While individual collections will have some biases, the global values per phylum between 1900 and 2015 should be informative. We will focus on the best represented clades - those with at least 10,000 records across museum collections. I will use a best-fit Loess curve to visualize the trend over time, adjusting the `span` variable down to 0.25 so that it is more sensitive to local data trends.
+If you know your museum codes, this will make sense. The largest collection is 'USNM', which is the U.S. National Museum / Smithsonian Institute. Now let's apply filters based on phylum and collection size and get a sense of how collections are growing over time. First, we will only focus on phyla that are well-represented across collections. While individual collections will have some biases, the global values per phylum between 1900 and 2015 should be informative. We will focus on the best represented clades - those with at least 10,000 records across museum collections. I will use a best-fit LOESS curve to visualize the trend over time, adjusting the `span` variable down to 0.25 so that it is more sensitive to local data trends.
 
 ```{r 31-large-phyla-trends, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10}
 # phyla with >= 10k records
@@ -1923,7 +1923,7 @@ left_join(df, collection_counts) %>%
     labs(x="Year", y="Proportion of Records")
 ```
 
-This is the type of plot we are after! We have standardized the counts to a proportion of the total collections growth between 1900 and 2015 and have focused on those phyla and collections that are well represented and less prone to error. However, there is still some work to do. Looking at this plot, we see some clear outlier peaks in the 1990s and recent years where the proportion spikes. And looking at the individual collection trends on the above facet plot, my hunch is that collections patterns in certain collections - namely INBio and U. Guelph - are driving these patterns. It appears that these collections had some highly concentrated collections activity during certain time periods. In turn, these spikes in collections are leading to the outlier points, which are also manupulating the Loess trendline. We can confirm this by coloring the points by collection.
+This is the type of plot we are after! We have standardized the counts to a proportion of the total collections growth between 1900 and 2015 and have focused on those phyla and collections that are well represented and less prone to error. However, there is still some work to do. Looking at this plot, we see some clear outlier peaks in the 1990s and recent years where the proportion spikes. And looking at the individual collection trends on the above facet plot, my hunch is that collections patterns in certain collections - namely INBio and U. Guelph - are driving these patterns. It appears that these collections had some highly concentrated collections activity during certain time periods. In turn, these spikes in collections are leading to the outlier points, which are also manupulating the LOESS trendline. We can confirm this by coloring the points by collection.
 
 ```{r 41-large-phyla-collection-trends-standard-colored, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10}
 left_join(df, collection_counts) %>%
@@ -2065,7 +2065,7 @@ left_join(df, collection_counts) %>%
     labs(x="Year", y="Proportion of Records")
 ```
 
-Looking good! However, the large spread of the data points along the y-axis and the relatively narrow spread of the best-fit Loess trendline make it look like the trendline is pretty flat. But this is misleading. What if we remove the background data points and just look at the trendline itself.
+Looking good! However, the large spread of the data points along the y-axis and the relatively narrow spread of the best-fit LOESS trendline make it look like the trendline is pretty flat. But this is misleading. What if we remove the background data points and just look at the trendline itself.
 
 ```{r 45-consistent-collection-trends-trendline, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10}
 # same command as above with "geom_point()" line removed
@@ -2313,7 +2313,7 @@ left_join(df, collection_key, by=c("collection" = "Institution.Codes")) %>%
     labs(x="Year", y="Proportion of Records")
 ```
 
-The large museums we are focused on come from 11 different countries and are probably a bit biased, but given they include the largest institutions in most of these countries, they are a reasonable proxy for overall collecting trends for each nation. Let's instead look at only the trendlines.
+The large museums we are focused on come from 10 different countries and are probably a bit biased, but given they include the largest institutions in most of these countries, they are a reasonable proxy for overall collecting trends for each nation. Let's instead look at only the trendlines.
 
 ```{r 52-collapse-institutions-trends-country-trendline, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10}
 left_join(df, collection_key, by=c("collection" = "Institution.Codes")) %>%
@@ -2389,7 +2389,7 @@ Very cool! I have now outlined a variety of ways of manipulating, standardizing,
 
 Now that we have demonstrated data cleaning, manipulation, exploration, and visualization, let's move forward and produce some final, representative plots. We will reiterate some of the details above but in more of a streamlined fashion to build several plots that will be of greatest interest to those working in natural history museum settings.
 
-First, let's start from our raw data again and produce an intermediate dataset where we have applied the relevant data filtering and standardization outlined above. We are going to apply the following filters.
+First, let's start from our raw data again and produce an intermediate dataset where we have applied the relevant data filtering and standardization outlined above. We are going to apply the following filters. Please note that some of these filters differ from those applied in the demonstrations above.
 
 1. We will remove any records where the phylum is blank or not defined.
 
@@ -2544,12 +2544,12 @@ standardized_filtered_df %>%
   length()
 ```
 
-Now that we have filtered and standardized the dataset, we can move forward with some final plots that summarize interesting aspects of the data. Let's first plot the overall trend in data collection across the entire dataset. This is the same as the plot displayed in [Summary](#Summary).
+Now that we have filtered and standardized the dataset, we can move forward with some final plots that summarize interesting aspects of the data. Let's first plot the overall trend in data collection across the entire dataset. This is the same as the plot displayed in [Summary](#Summary). Please note that we are using a LOESS span of 0.10 here and in [Summary](#Summary), which is why this plot appears more responsive to the data than many of those that were demonstrated above.
 
 ```{r 59-summary-plot-temporal-trend, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10}
 standardized_filtered_df %>%
   ggplot(aes(x=year, y=prop)) +
-    geom_smooth(method="loess", span=0.25) +
+    geom_smooth(method="loess", span=0.10) +
     scale_x_continuous(breaks=seq(1900, 2015, 10)) +
     labs(x="Year",
          y="Annual Collection Contribution\n(Proportion of 1900-2015 collections)") +
@@ -2563,7 +2563,7 @@ And now let's create the same plot, but with individual data points shown.
 standardized_filtered_df %>%
   ggplot(aes(x=year, y=prop)) +
     geom_point(shape=1) +
-    geom_smooth(method="loess", span=0.25) +
+    geom_smooth(method="loess", span=0.10) +
     scale_x_continuous(breaks=seq(1900, 2015, 10)) +
     labs(x="Year",
          y="Annual Collection Contribution\n(Proportion of 1900-2015 collections)") +
@@ -2576,7 +2576,7 @@ It would be interesting to know the overall trends across all countries included
 ```{r 61-summary-plot-temporal-trend-facet-country, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10, fig.height = 20}
 standardized_filtered_df %>%
   ggplot(aes(x=year, y=prop)) +
-    geom_smooth(method="loess", span=0.25) +
+    geom_smooth(method="loess", span=0.10) +
     facet_wrap(~Country, scales="free", ncol=3) +
     labs(x="Year",
          y="Annual Collection Contribution\n(Proportion of 1900-2015 collections)") +
@@ -2589,7 +2589,7 @@ And we can do the same thing for each continent as well.
 ```{r 62-summary-plot-temporal-trend-facet-continent, echo=TRUE, warnings=FALSE, message=FALSE, fig.width = 10}
 standardized_filtered_df %>%
   ggplot(aes(x=year, y=prop)) +
-    geom_smooth(method="loess", span=0.25) +
+    geom_smooth(method="loess", span=0.10) +
     facet_wrap(~Continent, scales="free", ncol=3) +
     labs(x="Year",
          y="Annual Collection Contribution\n(Proportion of 1900-2015 collections)") +
@@ -2911,7 +2911,7 @@ D
 
 And that's it! It should now be possible for anyone to recreate the figures from the accompanying article and explore the data in other interactive and manual ways. There is a lot that can be explored in these data, so hopefully, others will find this report useful! 
 
-Before wrapping up, let's quickly demonstrate how to produce the data table that was archived with the GitHub repository for this document and as a [GBIF derived dataset](https://www.gbif.org/derived-dataset/about). When building this table, we want to keep track of both phyla and classes, but we also need to keep track of both the original collection codes attached to the specimen records by GBIF and the institutional home of these collections, as some institutions have more than one subcollection on GBIF. This should allow one to tie the data back to the raw data from GBIF. I will also rename the column headers so they are nicer and more descriptive.
+Before wrapping up, let's quickly demonstrate how to produce the data table `archived_filtered_summarized_dataset.txt` that was archived with the GitHub repository for this document. When building this table, we want to keep track of both phyla and classes, but we also need to keep track of both the original collection codes attached to the specimen records by GBIF and the institutional home of these collections, as some institutions have more than one subcollection on GBIF. This should allow one to tie the data back to the raw data from GBIF. I will also rename the column headers so they are nicer and more descriptive.
 
 ```{r 64-create-archive-data, echo=TRUE, warnings=FALSE, message=FALSE}
 final_archive_data <- filtered_df %>% 
@@ -2934,7 +2934,7 @@ final_archive_data <- filtered_df %>%
 str(final_archive_data)
 ```
 
-This is the exact table that was exported and archived. But it does not necessarily correspond to some of the summarized tables above, as sometimes we are clustering the data only based on phylum (but not class) and on institution (but not collection code). We can regroup and summarize the data by phylum, ignoring class, to gather counts, proportions, and percentages for each phylum per collection code per year. 
+This is the exact table that was exported and archived as `archived_filtered_summarized_dataset.txt`. But it does not necessarily correspond to some of the summarized tables above, as sometimes we are clustering the data only based on phylum (but not class) and on institution (but not collection code). We can regroup and summarize the data by phylum, ignoring class, to gather counts, proportions, and percentages for each phylum per collection code per year. 
 
 ```{r 65-archive-group-phylum, echo=TRUE, warnings=FALSE, message=FALSE}
 resummPhylum <- final_archive_data %>% 
