@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/692120600.svg)](https://zenodo.org/badge/latestdoi/692120600)
+
 # NHMinformatics
 
 Informatically assessing natural history museum growth and activity
